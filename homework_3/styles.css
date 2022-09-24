@@ -1,0 +1,45 @@
+.custom-table {
+  width: 600px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.custom-table th{
+  padding: 16px;
+  border: 1px solid black;
+}
+td {
+  padding: 16px;
+  border: 1px solid black;
+}
+.text-right {
+  text-align: right;
+}
+td {
+vertical-align: top;
+}
+.green-bg {
+  background-color: chartreuse;
+}
+.yellow-bg {
+  background-color: yellow;
+}
+.pink-bg {
+  background-color: lightpink;
+}
+.green-yellow-bg {
+  background: linear-gradient(22deg,rgb(145, 247, 49) 50%, 
+  yellow 50%);
+}
+.pink-yellow-bg {
+  background: linear-gradient(20deg, pink 50%,
+  yellow 50%);
+}
+
+.chemistry-element {
+  display: flex;
+  column-gap: 20px;
+}
+
+.chemistry-element_number {
+  margin-top: 5px;
+}
